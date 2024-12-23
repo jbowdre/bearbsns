@@ -256,11 +256,6 @@ footer hr {
   border-top: 1px solid var(--text-color);
 }
 
-/* external link marker */
-a[href^="http"]:where(:not([href*="srsbsns.lol/"])):not(:has(img))::after {
-  content: "↗"
-}
-
 /* email reply handling */
 body.page footer #footer-directive h5,
 body.post footer #footer-directive h5 {
