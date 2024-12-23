@@ -91,7 +91,7 @@
   --text-color: var(--text);
   --link-color: var(--blue);
   --visited-color: var(--mauve);
-  --code-background-color: var(--surface1);
+  --code-background-color: var(--mantle);
   --code-color: var(--text);
   --blockquote-color: var(--text);
 }
