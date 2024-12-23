@@ -325,7 +325,7 @@ small[style^="opacity: .5"] {
   font-size: 0.8em;
 }
 
-.theme-song {}
+/* .theme-song {} */
 
 .theme-song img {
   max-height: 10em;
@@ -356,4 +356,24 @@ iframe[src*="youtube.com"] {
 .blog ::placeholder {
   color: var(--link-color);
   opacity: inherit;
+}
+
+/* Opengist tweaks */
+.opengist-embed {
+  background-color: var(--mantle);
+  width: 100%;
+  overflow: auto;
+}
+
+.rounded-md.border-1.border-gray-100.dark\:border-gray-800.overflow-auto.mb-4 {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+span.float-right {
+  display: none;
+}
+
+table.chroma.table-code.w-full.whitespace-pre {
+  background-color: rgb(19 19 22/var(--tw-bg-opacity));
 }
