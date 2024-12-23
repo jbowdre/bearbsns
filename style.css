@@ -1,18 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-    --width: 720px;
-    --font-main: 'Inter', sans-serif;
-    --font-secondary: 'Inter', sans-serif;
-    --font-scale: 1.1em;
-    --background-color: #063559;
-    --heading-color: #62ff88;
-    --text-color: #62ff88;
-    --link-color: #62ff88;
-    --visited-color: #62ff88;
-    --code-background-color: #0a2e49;
-    --code-color: #ffffff;
-    --blockquote-color: #62ff88;
+  /* color scheme lifted (with love) from
+    https://cool-as-heck.blog/css-color-themes/ /*
+  /* Catppuccin Mocha Palette */
+  --rosewater: #f5e0dc; /* Rosewater */
+  --flamingo: #f2cdcd; /* Flamingo */
+  --pink: #f5c2e7; /* Pink */
+  --mauve: #cba6f7; /* Mauve */
+  --red: #f38ba8; /* Red */
+  --maroon: #eba0ac; /* Maroon */
+  --peach: #fab387; /* Peach */
+  --yellow: #f9e2af; /* Yellow */
+  --green: #a6e3a1; /* Green */
+  --teal: #94e2d5; /* Teal */
+  --sky: #89dceb; /* Sky */
+  --sapphire: #74c7ec; /* Sapphire */
+  --blue: #89b4fa; /* Blue */
+  --lavender: #b4befe; /* Lavender */
+
+  /* Text and Subtext Colors */
+  --text: #cdd6f4; /* Text Color */
+  --subtext1: #bac2de; /* Subtext1 */
+  --subtext0: #a6adc8; /* Subtext0 */
+
+  /* Overlay Colors */
+  --overlay2: #9399b2; /* Overlay2 */
+  --overlay1: #7f849c; /* Overlay1 */
+  --overlay0: #6c7086; /* Overlay0 */
+
+  /* Surface Colors */
+  --surface2: #585b70; /* Surface2 */
+  --surface1: #45475a; /* Surface1 */
+  --surface0: #313244; /* Surface0 */
+
+  /* Base Colors */
+  --base: #1e1e2e; /* Base Color */
+  --mantle: #181825; /* Mantle Color */
+  --crust: #11111b; /* Crust Color */
+
+  /* Interactive Elements */
+  --accent: #f5c2e7; /* Accent or highlights */
+  --button-bg: #f28fad; /* Button background */
+  --button-hover-bg: #b4befe; /* Button hover background */
+  --input-bg: #313244; /* Input background */
+  --input-placeholder: #8caaee; /* Input placeholder color */
+
+  /* Border Color */
+  --border: #585b70;
+
+
+  /* Apply colors */
+  --width: 720px;
+  --font-main: 'Inter', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --font-scale: 1.1em;
+  --background-color: var(--base);
+  --heading-color: var(--text);
+  --text-color: var(--text);
+  --link-color: var(--blue);
+  --visited-color: var(--mauve);
+  --code-background-color: var(--surface1);
+  --code-color: var(--text);
+  --blockquote-color: var(--text);
 }
 
 body {
